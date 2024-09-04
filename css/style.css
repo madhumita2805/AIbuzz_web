@@ -1419,6 +1419,9 @@ spaces
 .mil-mb-120 {
   margin-bottom: 120px;
 }
+.mil-mb-25{
+  margin-bottom: 25px;
+}
 @media screen and (max-width: 992px) {
   .mil-mb-120 {
     margin-bottom: 60px;
