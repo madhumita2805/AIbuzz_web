@@ -303,14 +303,14 @@ a {
   text-align: center;
 }
 
-.mil-mb{
+.mil-mb {
   margin-bottom: 50px;
 }
-.mil-sm{
+.mil-sm {
   margin-top: 100px;
   margin-bottom: 100px;
 }
-.mil-orp{
+.mil-orp {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1371,7 +1371,7 @@ spaces
 }
 
 .mil-mb-5 {
-  margin-bottom: 5px !important;
+  margin-bottom: 33px !important;
 }
 
 .mil-mb-10 {
@@ -1417,10 +1417,7 @@ spaces
 }
 
 .mil-mb-120 {
-  margin-bottom: 120px;
-}
-.mil-mb-25{
-  margin-bottom: 25px;
+  margin-bottom: 40px;
 }
 @media screen and (max-width: 992px) {
   .mil-mb-120 {
@@ -1462,8 +1459,8 @@ spaces
 }
 
 .mil-p-120-90 {
-  padding-top: 120px;
-  padding-bottom: 90px;
+  padding-top: 49px;
+  padding-bottom: 20px;
 }
 @media screen and (max-width: 992px) {
   .mil-p-120-90 {
@@ -1484,7 +1481,7 @@ spaces
 }
 
 .mil-p-120-0 {
-  padding-top: 120px;
+  padding-top: 30px;
   padding-bottom: 0;
 }
 @media screen and (max-width: 992px) {
@@ -5391,4 +5388,3 @@ additional pages
 .alert-error h5 {
   color: red;
 }
-
