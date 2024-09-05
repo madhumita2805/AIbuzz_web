@@ -69,6 +69,7 @@ main
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  
 }
 
 body {
@@ -554,7 +555,7 @@ list
 .mil-rec-res li a:hover i {
   -webkit-transform: translateX(0);
   transform: translateX(0);
-  color: rgb(245, 124, 0);
+  color: rgb(245, 195, 0);
 }
 
 /* -------------------------------------------
@@ -1396,7 +1397,8 @@ spaces
 }
 
 .mil-mb-30 {
-  margin-bottom: 30px !important;
+  margin-bottom: 10px !important;
+  margin-top: 10px;
 }
 
 .mil-mb-50 {
@@ -1408,7 +1410,7 @@ spaces
 }
 
 .mil-mb-90 {
-  margin-bottom: 90px;
+  margin-bottom: 80px;
 }
 @media screen and (max-width: 992px) {
   .mil-mb-90 {
@@ -1437,8 +1439,8 @@ spaces
 }
 
 .mil-p-90-60 {
-  padding-top: 90px;
-  padding-bottom: 60px;
+  padding-top: 49px;
+  padding-bottom: 20px;
 }
 @media screen and (max-width: 992px) {
   .mil-p-90-60 {
@@ -1459,7 +1461,7 @@ spaces
 }
 
 .mil-p-120-90 {
-  padding-top: 49px;
+  padding-top: 30px;
   padding-bottom: 20px;
 }
 @media screen and (max-width: 992px) {
@@ -1602,14 +1604,14 @@ top panel
   align-items: center;
 }
 .mil-top-panel .mil-logo {
-  height: 40px;
+  height: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  background-image: url(../img/logo/Logo\ 2\ .png);
+  background-image: url(../img/logo/AI\ Buzz\ Updated\ logo2.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -1818,7 +1820,7 @@ top panel
   box-shadow: none;
 }
 .mil-top-panel.mil-top-panel-transparent .mil-logo {
-  background-image: url(../img/logo/Logo\ 2\ .png);
+  background-image: url(../img/logo/AI\ Buzz\ updated\ logo2.png);
 }
 .mil-top-panel.mil-top-panel-transparent .mil-navigation nav ul li a {
   color: rgb(255, 255, 255);
@@ -2703,8 +2705,8 @@ partners
   -ms-flex-pack: center;
   justify-content: center;
   margin-bottom: 30px;
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
+ /** -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);**/
 }
 @media screen and (max-width: 1200px) {
   .mil-partners-frame a {
@@ -4226,6 +4228,7 @@ tabs
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .mil-tabs label {
   text-align: center;
@@ -5388,3 +5391,4 @@ additional pages
 .alert-error h5 {
   color: red;
 }
+
