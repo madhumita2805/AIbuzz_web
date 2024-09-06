@@ -2695,6 +2695,7 @@ partners
   }
 }
 .mil-partners-frame a {
+  height:70px;
   width: 150px;
   position: relative;
   cursor: pointer;
@@ -2707,6 +2708,9 @@ partners
   margin-bottom: 30px;
  /** -webkit-filter: grayscale(100%);
   filter: grayscale(100%);**/
+}
+.mil-partners-frame #Cisco{
+  height:100px;
 }
 @media screen and (max-width: 1200px) {
   .mil-partners-frame a {
@@ -2739,7 +2743,7 @@ partners
 .mil-partners-frame a:before {
   content: "";
   position: absolute;
-  top: 0;
+  top: 35%;
   left: calc(50% - 15px);
   -webkit-transform: scale(0);
   transform: scale(0);
@@ -2749,6 +2753,7 @@ partners
   height: 30px;
   -webkit-transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
   transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
+  
 }
 .mil-partners-frame a:hover {
   -webkit-filter: grayscale(0);
