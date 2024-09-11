@@ -78,7 +78,8 @@ body {
   font-family: "Sora", sans-serif;
   font-size: 15px;
   font-weight: 400;
-  color: rgba(18, 24, 32, 0.4);
+  /**color: rgba(18, 24, 32, 0.4);**/
+  color: #6E7070;
   line-height: 170%;
   -ms-scroll-chaining: none;
   overscroll-behavior: none;
@@ -116,9 +117,10 @@ h5,
 h6,
 .mil-h6 {
   font-family: "Syne", sans-serif;
-  color: rgb(18, 24, 32);
+  /**color: rgb(18, 24, 32);**/
   font-weight: 600;
   line-height: 140%;
+  color: #033949;
 }
 h1 .mil-font-3,
 .mil-h1 .mil-font-3,
@@ -235,7 +237,7 @@ a {
 .mil-suptitle {
   font-size: 14px;
   display: inline-block;
-  color: rgb(18, 24, 32);
+  color: #033949;
   font-weight: 500;
   font-family: "Syne", sans-serif;
 }
@@ -243,6 +245,7 @@ a {
   font-size: 16px;
   position: relative;
   padding-left: 15px;
+  margin-top: 0px;
 }
 .mil-suptitle.mil-suptitle-2:before {
   content: "";
@@ -284,7 +287,7 @@ a {
 }
 
 .mil-light-soft {
-  color: rgba(255, 255, 255, 0.5);
+  color: #f4f4f4;
 }
 
 .mil-dark-soft {
@@ -646,7 +649,7 @@ button
   padding: 0 60px;
   font-family: "Sora", sans-serif;
   font-size: 16px;
-  color: rgb(18, 24, 32);
+  color:#033949;
   font-weight: 500;
   white-space: nowrap;
   display: -webkit-inline-box;
@@ -1214,7 +1217,7 @@ divider
   background-color: rgba(18, 24, 32, 0.1);
   position: relative;
 }
-.mil-divider:before,
+/**.mil-divider:before,
 .mil-divider:after {
   content: "";
   width: 25px;
@@ -1224,7 +1227,7 @@ divider
   position: absolute;
   top: 0;
   left: 0;
-}
+}**/
 .mil-divider:after {
   left: auto;
   right: 0;
@@ -1388,7 +1391,8 @@ spaces
 }
 
 .mil-mb-30-adapt {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
+  margin-top: -44px;
 }
 @media screen and (max-width: 992px) {
   .mil-mb-30-adapt {
@@ -1398,16 +1402,16 @@ spaces
 
 .mil-mb-30 {
   margin-bottom: 10px !important;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .mil-mb-50 {
-  margin-bottom: 50px !important;
+  margin-bottom: 12px !important;
 }
 
 .mil-mb-60 {
-  margin-top: 30px;
-  margin-bottom: 40px !important;
+  margin-top: 10px;
+  margin-bottom: 28px !important;
 }
 
 .mil-mb-90 {
@@ -1453,6 +1457,10 @@ spaces
 .mil-p-120-120 {
   padding-top: 80px;
   padding-bottom: 120px;
+  
+  padding-left: 30px; 
+    padding-right: 285px;
+    
 }
 @media screen and (max-width: 992px) {
   .mil-p-120-120 {
@@ -1463,7 +1471,7 @@ spaces
 
 .mil-p-120-90 {
   padding-top: 35px;
-  padding-bottom: 52px;
+  padding-bottom: 20px;
 }
 @media screen and (max-width: 992px) {
   .mil-p-120-90 {
@@ -1473,7 +1481,7 @@ spaces
 }
 
 .mil-p-120-60 {
-  padding-top: 45px;
+  padding-top: 30px;
   padding-bottom: 5px;
 }
 @media screen and (max-width: 992px) {
@@ -1605,14 +1613,14 @@ top panel
   align-items: center;
 }
 .mil-top-panel .mil-logo {
-  height: 30px;
+  height: 40px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  background-image: url(../img/logo/aibuzz\ final\ logo.png);
+  background-image: url(../img/logo/AIBUZZ--COLOUR-FINAL-LOGO.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -1649,7 +1657,7 @@ top panel
   position: relative;
   padding-right: 10px;
 }
-.mil-top-panel .mil-navigation nav ul li.mil-has-children:before {
+/**.mil-top-panel .mil-navigation nav ul li.mil-has-children:before {
   content: "";
   position: absolute;
   top: 0;
@@ -1658,7 +1666,7 @@ top panel
   height: 8px;
   border-radius: 50%;
   border: solid 2px rgb(245, 195, 0);
-}
+}**/
 .mil-top-panel .mil-navigation nav ul li.mil-has-children:after {
   content: "";
   width: 100%;
@@ -1821,7 +1829,7 @@ top panel
   box-shadow: none;
 }
 .mil-top-panel.mil-top-panel-transparent .mil-logo {
-  background-image: url(../img/logo/aibuzz\ final\ logo.png);
+  background-image: url(../img/logo/AIBUZZ-LOGO-WHITE-FINAL.png);
 }
 .mil-top-panel.mil-top-panel-transparent .mil-navigation nav ul li a {
   color: rgb(255, 255, 255);
@@ -3163,6 +3171,7 @@ slider navigation
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  
 }
 .mil-slider-nav .mil-slider-btn-prev {
   margin-right: 30px;
@@ -3175,6 +3184,7 @@ slider navigation
 }
 .mil-slider-nav .mil-slider-btn-prev,
 .mil-slider-nav .mil-slider-btn-next {
+ 
   cursor: pointer;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3514,10 +3524,10 @@ reviews
   transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
 }
 .mil-review .mil-author .mil-name {
-  padding-left: 20px;
+  padding-left: 0px;
 }
 .mil-review .mil-author .mil-name .mil-text-sm {
-  opacity: 0.6;
+  opacity: 1.6;
 }
 .mil-review:hover .mil-author img {
   -webkit-filter: grayscale(0);
@@ -3847,7 +3857,7 @@ breadcrumbs
   align-items: center;
 }
 .mil-breadcrumbs li a {
-  color: rgb(18, 24, 32);
+  color: #033949;
   -webkit-transition: 0.2s cubic-bezier(0, 0, 0.3642, 1);
   transition: 0.2s cubic-bezier(0, 0, 0.3642, 1);
 }
@@ -4291,7 +4301,7 @@ tabs
   display: none;
 }
 .mil-tabs input[type="radio"]:checked + label {
-  color: rgb(18, 24, 32);
+  color:#033949;
 }
 .mil-tabs input[type="radio"]:checked + label:after {
   content: "";
